@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\AO2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj": {}
+    "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\AO2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj": {
+    "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\AO2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj",
         "projectName": "ExoApi",
-        "projectPath": "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\AO2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\AO2\\ExoApi\\ExoApi\\ExoApi\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

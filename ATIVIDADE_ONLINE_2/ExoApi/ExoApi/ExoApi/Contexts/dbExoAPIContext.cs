@@ -19,7 +19,7 @@ namespace ExoApi.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source = DESKTOP-L8SLKHA\\SQLEXPRESS; initial catalog = dbExoApi; User Id = sa; Password = vip12345 ");
+                optionsBuilder.UseSqlServer("Data Source = DESKTOP-L8SLKHA\\SQLEXPRESS; initial catalog = dbExoApi; User Id = sa; Password = nfswe ");
             }
         }
 
