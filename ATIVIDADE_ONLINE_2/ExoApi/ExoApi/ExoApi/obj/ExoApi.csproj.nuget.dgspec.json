@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj": {}
+    "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC11\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj": {
+    "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC11\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj",
+        "projectUniqueName": "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC11\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj",
         "projectName": "ExoApi",
-        "projectPath": "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\CURSOS\\PROGRAMADOR FULL STACK SENAI\\UC14 - DESENVOLVIMENTO DE APIs\\Exercicios\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\obj\\",
+        "projectPath": "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC11\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\ExoApi.csproj",
+        "packagesPath": "C:\\Users\\lozano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC11\\ATIVIDADE_ONLINE_2\\ExoApi\\ExoApi\\ExoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lozano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.9, )"
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

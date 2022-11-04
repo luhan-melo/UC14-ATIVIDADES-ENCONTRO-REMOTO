@@ -1,24 +1,29 @@
 ﻿using ExoApi.Models;
 using ExoApi.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ExoApi.Controllers
 {
+
     [Produces("application/json")]
 
     [Route("api/[controller]")]
     [ApiController]
-    public class ProjetoController : Controller
+
+    [Authorize]
+    public class ProjetoController : ControllerBase
     {
         private readonly ProjetoRepository _projetoRepository;
+
 
         public ProjetoController(ProjetoRepository projetoRepository)
         {
             _projetoRepository = projetoRepository;
-        }   
-        [HttpGet]
+        }
 
+        [HttpGet]
         public IActionResult Listar()
         {
             try
@@ -27,23 +32,23 @@ namespace ExoApi.Controllers
             }
             catch (Exception e)
             {
-                throw new Exception(e.Message);
+                throw new Exception(e.Message);    
             }
         }
 
+        
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
             try
             {
-            Projeto projeto = _projetoRepository.BuscarPorId(id);
+                Projeto projeto = _projetoRepository.BuscarPorId(id);
                 if(projeto == null)
                 {
                     return NotFound();
                 }
                 return Ok(projeto);
             }
-
             catch (Exception)
             {
                 throw;
@@ -62,7 +67,6 @@ namespace ExoApi.Controllers
             {
                 throw;
             }
-
         }
 
         [HttpPut("{id}")]
@@ -71,7 +75,7 @@ namespace ExoApi.Controllers
             try
             {
                 Projeto projetoBuscado = _projetoRepository.BuscarPorId(id);
-                if (projetoBuscado == null)
+                if(projetoBuscado == null)
                 {
                     return NotFound();
                 }
@@ -83,6 +87,8 @@ namespace ExoApi.Controllers
                 throw;
             }
         }
+
+        [Authorize(Roles ="0")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {

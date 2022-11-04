@@ -10,8 +10,9 @@ namespace ExoApi.Repositories
         public ProjetoRepository(dbExoAPIContext context)
         {
             _context = context;
-        }
-    public List<Projeto> Listar()
+        } 
+        
+        public List<Projeto> Listar()
         {
             return _context.Projetos.ToList();
         }
@@ -24,13 +25,13 @@ namespace ExoApi.Repositories
         public void Cadastrar(Projeto projeto)
         {
             _context.Projetos.Add(projeto);
-            _context.SaveChanges(); 
+            _context.SaveChanges();
         }
 
         public void Atualizar (int id, Projeto projeto)
         {
             Projeto projetoBuscado = _context.Projetos.Find(id);
-            if (projetoBuscado != null)
+            if(projetoBuscado != null)
             {
                 projetoBuscado.Titulo = projeto.Titulo;
                 projetoBuscado.Status = projeto.Status;
@@ -41,6 +42,7 @@ namespace ExoApi.Repositories
             _context.Projetos.Update(projetoBuscado);
             _context.SaveChanges();
         }
+
         public void Deletar(int id)
         {
             Projeto projeto = _context.Projetos.Find(id);
